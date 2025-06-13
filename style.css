@@ -1,22 +1,21 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-image: url('/poto/background.jpg'); /* Ganti dengan path gambar yang kamu pakai */
+  background-image: url("poto/background.jpg"); /* Ganti dengan path gambar yang kamu pakai */
   background-size: cover; /* Agar gambar memenuhi seluruh layar */
   background-repeat: no-repeat; /* Supaya tidak mengulang */
   background-attachment: fixed; /* Agar background tetap saat scroll */
   background-position: center; /* Agar gambar terpusat */
   color: #fff; /* Ubah warna teks agar kontras dengan background */
-
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.6);;
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 12px;
   padding: 20px;
   max-width: 600px;
   margin: auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -27,7 +26,7 @@ img {
 
 h1 {
   text-align: center;
-} 
+}
 
 /*
 .video-wrapper {
