@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-image: url("poto/background.jpg"); /* Ganti dengan path gambar yang kamu pakai */
+  background-image: url("potyo/background.jpg"); /* Ganti dengan path gambar yang kamu pakai */
   background-size: cover; /* Agar gambar memenuhi seluruh layar */
   background-repeat: no-repeat; /* Supaya tidak mengulang */
   background-attachment: fixed; /* Agar background tetap saat scroll */
@@ -28,7 +28,6 @@ h1 {
   text-align: center;
 }
 
-/*
 .video-wrapper {
   position: relative;
   display: inline-block;
@@ -52,7 +51,6 @@ h1 {
   z-index: 1;
 }
 
-
 .play-button {
   position: absolute;
   top: 50%;
@@ -65,4 +63,3 @@ h1 {
   z-index: 2;
   pointer-events: none;
 }
-*/
